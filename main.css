@@ -8,5 +8,33 @@ li {
 button {
     background: #FCB941;
 }
-
 .title {color: red;}
+
+/*
+ * здесь мы задаем параметры для нашего анимированного блока
+ * transition время на анимацию так скажем
+ */
+.block {
+    transition: 0.5s;
+    width: 100px;
+    height: 100px;
+    background: #EBBD63;
+}
+.blue {
+    transition: 0.5s;
+    background: #3D8EB9;
+}
+/*
+ * здесь мы изменим позицию нашего элемента
+ * так же использует transition для плавной анимации
+ */
+.position-x{
+    transition: 0.5s;
+    margin-left: 400px;
+}
+.text {
+    font-size: 22px; 
+    background: #FCB941;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
